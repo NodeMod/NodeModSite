@@ -1,0 +1,29 @@
+body {background-color: #CEFF09;}
+
+h1{
+    color: #2c2c2c;
+    font-family: 'Spartan', sans-serif;
+    font-size: 70px;
+    position: relative;
+    left: 150px;
+
+}
+
+h3{
+    color: #2c2c2c;
+    font-family: 'Spartan', sans-serif;
+    font-size: 40px;
+}
+
+#logoUp{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+}
+
+h4{
+    color: #2c2c2c;
+    font-family: 'Spartan', sans-serif;
+    font-size: 30px;
+}
