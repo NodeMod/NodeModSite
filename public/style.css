@@ -39,7 +39,9 @@ a{
 .footer-link:hover{
    color: rgba(255,255,255,0.5) !important
 }
-
+.img-navbar{
+    width: 75px
+}
 @media  screen and (min-width:961px) {
     #footer{
     
