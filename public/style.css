@@ -1,9 +1,55 @@
 *{
-    text-decoration: none;
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
 }
-:root {
-    --menu-width: 37.5em; /* Width of menu */
-    --items: 4; /* Number of items you have */
+body{
+    background-color: #CEFF09 !important;
+}
+h1{
+    font-size: 70px !important;
+}
+h3{
+    font-size: 40px !important;
+}
+h4{
+    font-size: 30px !important;
+}
+a{
+    text-decoration: none !important;
+    color: black !important
+}
+.navbar{
+    padding:7.5% 2.5%;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 5%);
+}
+#presentation{
+    padding: 40px;
+    
+}
+#footer{
+    text-align: right;
+    padding:30px;
+    margin-top: 200px;
+}
+.footer-link{
+
+    transition: 0.3s ;
+}
+.footer-link:hover{
+   color: rgba(255,255,255,0.5) !important
+}
+
+@media  screen and (min-width:961px) {
+    #footer{
+    
+        margin-top: 350px;
+    }
+    
+}
+/* :root {
+    --menu-width: 37.5em; 
+    --items: 4;
     --item-width: calc(var(--menu-width) / var(--items));
 }
 
@@ -192,7 +238,7 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     }
 }
 
-/* Menu specific */
+
 .menu-item .title {
     font-weight: 500;
     color: rgb(44 70 86);
@@ -237,14 +283,14 @@ nav .menu-item:nth-of-type(4):hover ~ #sub-menu-container #sub-menu-holder {
     top: -1px;
 }
 
-/* Base Icon Style */
+
 .icon-box.gb .icon i:before {
     background: linear-gradient(45deg, #0c86ef, #0cef9b);
     -webkit-text-fill-color: transparent;
     padding-left: 1px;
 }
 
-/* Define Icon Colors */
+
 .icon-box.gb.a .icon i:before {background-image: linear-gradient(45deg, #2ca7ff 35%, #31d078 75%);}
 .icon-box.gb.b .icon i:before {background-image: linear-gradient(45deg, #f32b2b 35%, #efbe0c 75%);}
 .icon-box.gb.c .icon i:before {background-image: linear-gradient(45deg, #7176ff 35%, #b26cea 75%);}
@@ -385,3 +431,4 @@ h4{
     font-family: 'Spartan', sans-serif;
     font-size: 30px;
 }
+*/
