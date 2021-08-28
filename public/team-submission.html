@@ -5,18 +5,21 @@
         <title>Home - NodeMod</title>
         <meta name="viewport" content="width-device-width, initial-scale-1.0">
         <meta name="google-signin-client_id" content="1049432528698-2fsp3skt79p9eudvs2q6hh42t7goirom.apps.googleusercontent.com">
-        <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src="script.js"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+        <!--CSS-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--JAVASCRIPT-->
+        <script type="text/javascript" src="assets/js/script.js"></script>
+        <!--FIREBASE-->
         <link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/nodemod-site.appspot.com/o/Logo%20500x500%20px.png?alt=media&token=8188d51f-6f91-405d-a755-26573b661fbf">
         <script src="https://kit.fontawesome.com/628c8d2499.js" crossorigin="anonymous"></script>
+        <!--GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;500;600;700&display=swap" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-        <script data-ad-client="ca-pub-4547435653865921" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-
+        <!--BOOTSTRAP 5-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -33,169 +36,26 @@
         <script src="/__/firebase/init.js"></script>
         <script src="https://apis.google.com/js/platform.js" async defer></script>
 
-        <nav id="menu">
-            <div class="menu-item">
-                <div class="menu-text">
-                    <a href="#">Product</a>
-                </div>
-                <div class="sub-menu">
-                    <div class="icon-box">
-                        <div class="icon"> <img src="https://img.icons8.com/material-rounded/24/000000/discord-logo.png"/></div>
-                        <div class="text">
-                            <div class="title"><a href="https://nodemod.ga/bot">NodeMod Bot</a><i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">A simple Discord bot for moderation and fun</div>
+                <!--NAVIGATION BAR-->
+                <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container-fluid">
+                      <img class="navbar-brand img-navbar" src="assets/img/NodeMod.png"></img>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto">
+                          <h4 class="nav-link active"  aria-current="page"><a href=""></a><a href=""><img src="assets/img/category-icon.svg" alt="" class="navbar-icon"> Product  </a></h4>
+                          <h4 class="nav-link active" ><a href=""><img src="assets/img/service-icon.svg" alt="" class="navbar-icon"> Services </a></h4>
+                          <h4 class="nav-link active"><a href=""> <img src="assets/img/support-icon.svg" alt="" class="navbar-icon"> Support</a></h4>
+                          <h4 class="nav-link active" ><a href=""><img src="assets/img/community-icon.svg" alt="" class="navbar-icon"> Community </a></h4>
+                         <h4 class="nav-link"><a href=""><button class="btn btn-md btn-outline-light">Login</button> <button class="btn btn-md btn-outline-primary">Sign Up</button></a></h4>
                         </div>
+                      </div>
                     </div>
-                    <div class="icon-box">
-                        <div class="icon"><img src='https://i.postimg.cc/prWrLZmh/baseline-smart-toy-black-24dp.png'/></div>
-                        <div class="text">
-                            <div class="title">NodeMod Host<i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">Host 24/7 your Discord bot for free</div>
-                        </div>
-                    </div>
-                    <div class="icon-box">
-                        <div class="icon"><img src="https://img.icons8.com/material-outlined/24/000000/domain.png"/></div>
-                        <div class="text">
-                            <div class="title">NodeDomain<i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">Get a free third-level domain for your project</div>
-                        </div>
-                    </div>
-                    <div class="sub-menu-holder"></div>
-                </div>
-            </div>
-            <div class="menu-item highlight">
-                <div class="menu-text">
-                    <a href="#">Services</a>
-                </div>
-                <div class="sub-menu double">
-                    <div class="icon-box gb a">
-                        <div class="icon"><img src="https://img.icons8.com/material-rounded/24/000000/code.png"/></i></div>
-                        <div class="text">
-                            <div class="title">Codes <i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">Find a perfect code for your project</div>
-                        </div>
-                    </div>
-                    <div class="icon-box gb b">
-                        <div class="icon"><img src="https://img.icons8.com/material-outlined/24/000000/video.png"/></div>
-                        <div class="text">
-                            <div class="title">Learn <i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">From videos</div>
-                        </div>
-                    </div>
-                    <div class="icon-box gb c">
-                        <div class="icon"><img src="https://img.icons8.com/material-outlined/24/000000/meeting-room--v2.png"/></div>
-                        <div class="text">
-                            <div class="title">Meet <i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">Whit NM meet</div>
-                        </div>
-                    </div>
-                    <div class="icon-box gb d">
-                        <div class="icon"><img src="https://img.icons8.com/material-sharp/24/000000/link--v1.png"/></div>
-                        <div class="text">
-                            <div class="title">Short a URL<i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">at the partner Fasm.ga</div>
-                        </div>
-                    </div>
-                    <div class="bottom-container">
-                        Ready? <a href="#">Get Started</a>
-                    </div>
-                    <div class="sub-menu-holder"></div>
-                </div>
-            </div>
-            <div class="menu-item highlight">
-                <div class="menu-text">
-                    <a href="#">Support</a>
-                </div>
-                <div class="sub-menu triple">
-                    <div class="top-container gb c icon-box">
-                        <div class="icon big"><i class="far fa-book"></i></div>
-                        <div class="text">
-                            <div class="title">Where to start</div>
-                            <div class="sub-text">Find out where to begin below</div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h3>Your dashboard</h3>
-                        <a href="https://host.nodemod.org/">Hosting</a>
-                        <a href="https://nodemod.org/bot">Discord Bot</a>
-                        <a href="https://nodemod.org/domain">Free Domain</a>
-                        <a href="https://nodemod.org/donate">Donate</a>
-                    </div>
-                    <div class="box">
-                        <h3>Our support ways</h3>
-                        <a href="#">Discord server</a>
-                        <a href="#">Instagram DM</a>
-                        <a href="#">Twitter tags</a>
-                        <a href="#">Email</a>
-                    </div>
-                    <div class="icon-box flat">
-                        <div class="icon"><i class="fal fa-plug"></i></div>
-                        <div class="text">
-                            <div class="title">API Guide <i class="far fa-arrow-right"></i></div>
-                        </div>
-                    </div>
-                    <div class="icon-box flat">
-                        <div class="icon"><i class="fal fa-comments"></i></div>
-                        <div class="text">
-                            <div class="title">Support Line <i class="far fa-arrow-right"></i></div>
-                        </div>
-                    </div>
-                    <div class="icon-box flat">
-                        <div class="icon"><i class="fal fa-phone-volume"></i></div>
-                        <div class="text">
-                            <div class="title">Live Chat <i class="far fa-arrow-right"></i></div>
-                        </div>
-                    </div>
-                    <div class="icon-box flat">
-                        <div class="icon"><i class="fal fa-book-spells"></i></div>
-                        <div class="text">
-                            <div class="title">Documentation <i class="far fa-arrow-right"></i></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="menu-item">
-                <div class="menu-text">
-                    <a href="#">Community</a>
-                </div>
-                <div class="sub-menu">
-                    <div class="icon-box">
-                        <div class="icon"><i class="far fa-satellite"></i></div>
-                        <div class="text">
-                            <div class="title">Forum <i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">Join our passionate community.</div>
-                        </div>
-                    </div>
-                    <div class="icon-box">
-                        <div class="icon"><i class="fab fa-twitter-square"></i></div>
-                        <div class="text">
-                            <div class="title">Twitter <i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">Follow us on twitter.</div>
-                        </div>
-                    </div>
-                    <div class="icon-box">
-                        <div class="icon"><img src="https://img.icons8.com/material-outlined/24/000000/instagram-new--v1.png"/></i></div>
-                        <div class="text">
-                            <div class="title">Instagram <i class="far fa-arrow-right"></i></div>
-                            <div class="sub-text">Follow us on Instagram</div>
-                        </div>
-                    </div>
-                    <div class="sub-menu-holder"></div>
-                </div>
-            </div>
-            <div id="sub-menu-container">
-                <div id="sub-menu-holder">
-                    <div id="sub-menu-bottom">
-        
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-        <img src="img/NodeMod.png" id="logoUp">
-        
-        
-    <iframe
+                  </nav>
+                <!--JOTFORM-->
+                  <iframe
     id="JotFormIFrame-211962428835058"
     title="Modulo NodeMod Team"
     onload="window.parent.scrollTo(0,0)"
@@ -291,10 +151,17 @@
       window.attachEvent("onmessage", handleIFrameMessage);
     }
     </script>
+      
+
+        
+        
+        
+    
 
 
     </body>
 
 
-</html>
+</html> 
+
 

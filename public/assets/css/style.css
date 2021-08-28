@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+body{
+    color: whitesmoke !important; 
+    background-image: linear-gradient(to left , #00285D , #003C8D);
+    font-family: 'Spartan', sans-serif;
+}
+h1{
+    font-size: 70px !important;
+    font-weight: 700 !important ;
+}
+h3{
+    font-size: 40px !important;
+    font-weight: 600 !important;
+}
+h4{
+    font-weight: 500 !important;
+    font-size: 30px !important;
+}
+a{
+    text-decoration: none !important;
+    color: whitesmoke !important
+}
+p{
+    font-weight: 300 !important ;
+}
+.navbar{
+    padding:7.5% 2.5%;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 5%);
+}
+#presentation{
+    padding: 40px;
+    
+}
+#footer{
+    text-align: right;
+    padding:30px;
+    margin-top: 200px;
+}
+.footer-link{
+
+    transition: 0.3s ;
+}
+.footer-link:hover{
+   color: rgba(255,255,255,0.5) !important
+}
+.img-navbar{
+    width: 75px
+}
+.btn{
+    width: 90px;
+    height: 40px;
+  
+}
+.jfForm-wrapper{
+    background-image: linear-gradient(to left , #00285D , #003C8D);;
+}
+@media  screen and (min-width:961px) {
+    #footer{
+        
+        margin-top: 350px;
+    }
+    
+}
