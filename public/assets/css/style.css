@@ -4,8 +4,8 @@
     margin: 0;
 }
 body{
-    color: whitesmoke !important; 
-    background-image: linear-gradient(to left , #00285D , #003C8D);
+    color: #2e2e2e !important; 
+    background-image: linear-gradient(to left , #bcdf35, #ceff09);
     font-family: 'Spartan', sans-serif;
 }
 h1{
@@ -22,7 +22,7 @@ h4{
 }
 a{
     text-decoration: none !important;
-    color: whitesmoke !important
+    color: #2e2e2e !important
 }
 p{
     font-weight: 300 !important ;
@@ -30,6 +30,7 @@ p{
 .navbar{
     padding:7.5% 2.5%;
     box-shadow: 0 10px 20px 0 rgb(0 0 0 / 5%);
+    background-image: linear-gradient(to left , #bcdf35, #ceff09);
 }
 #presentation{
     padding: 40px;

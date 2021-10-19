@@ -6,8 +6,3 @@ function onSignIn(googleUser) {
     console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
   }
 
-
-  function repoFunction() {
-    var repo = document.getElementById("myText").value;
-    document.getElementById("demo").innerHTML = repo;
-  }
